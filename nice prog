@@ -1,0 +1,6 @@
+def Calculate_Square(number):
+    return number * number
+
+number = int(input("Please Enter an Integer Value: "))
+Square = Calculate_Square(number)
+print("Square of the Entered Number is =", Square)
